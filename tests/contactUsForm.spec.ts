@@ -27,13 +27,15 @@ test("Contact Us form",async ({page}) => {
         await dialog.accept();
     });
 
-    await page.waitForTimeout(30000);
+    await page.waitForTimeout(5000);
 
     const successMsg = page.locator("div.status.alert.alert-success");
 
+    console.log(successMsg.textContent);
+
     await expect(successMsg).toHaveText(
         "Success! Your details have been submitted successfully.",
-        { timeout: 15000 }
+        { timeout: 5000 }
     );
 
     await page.click('a.btn.btn-success[href="/"]');
