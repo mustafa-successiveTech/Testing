@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","8747","Verify user login with correct email and password","","Thu Nov 06 10:54:15 IST 2025","failed","Thu Nov 06 10:54:24 IST 2025","","login.spec.ts","",""
+"","5758","Register and login user with correct email and password","","Thu Nov 06 10:56:35 IST 2025","passed","Thu Nov 06 10:56:41 IST 2025","","login.spec.ts","",""
