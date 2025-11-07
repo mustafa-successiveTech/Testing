@@ -1,21 +1,4 @@
-# Ignore dependencies
 node_modules/
-
-# Ignore logs
-logs/
-*.log
-
-# Ignore system files
-.DS_Store
-
-# Ignore Playwright reports
 allure-results/
 allure-report/
 test-results/
-
-# Ignore environment or secrets
-.env
-
-# Ignore build artifacts
-dist/
-build/
