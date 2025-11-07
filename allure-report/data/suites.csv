@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3775","Test case 11 : To verify Subscription in Cart page","","Fri Nov 07 11:52:49 IST 2025","passed","Fri Nov 07 11:52:53 IST 2025","","tests/verifySubCart.spec.ts","",""
